@@ -3,15 +3,20 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
 }
-.popular h1{
+.women-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.women-item h1{
     color: #171717;
     font-size: 50px;
     font-weight: 600;
 
 }
-.popular hr{
+.women-item hr{
     width: 200px;
     height: 6px;
     border-radius: 10px;
@@ -22,4 +27,23 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+}
+
+.man-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.man-item h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.man-item hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
 }
