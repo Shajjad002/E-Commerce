@@ -1,7 +1,12 @@
 import React from "react";
+import CartItems from "../Components/CartItem/CartItems";
 
 function Cart() {
-  return <div></div>;
+  return (
+    <div className=''>
+      <CartItems/>
+    </div>
+    )
 }
 
 // #endregion
