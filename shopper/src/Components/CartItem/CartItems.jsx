@@ -14,6 +14,7 @@ function CartItems() {
                 <p>Price</p>
                 <p>Quantity</p>
                 <p>Total</p>
+                {/* <p>Total</p> */}
                 <p>Remove</p>
                 <hr />
                 {all_product.map((e)=>{
