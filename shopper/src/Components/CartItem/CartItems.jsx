@@ -51,6 +51,7 @@ function CartItems() {
                             <p>${0}</p>
                         </div>
                     </div>
+                    <button>PROCEED TO CHECKOUT</button>
                 </div>
 
             </div>
