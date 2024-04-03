@@ -53,7 +53,7 @@
     padding: 15px 0px;
 }
 .cartitems-total button{
-    width: 260px;
+    width: 262px;
     height: 58px;
     outline: none;
     border: none;
@@ -74,11 +74,12 @@
     color: #555;
 }
 .cartitems-promobox{
-    width: 500px;
+    width: 504px;
     margin-top:15px;
     padding-left: 20px;
     height: 58px;
-    background: #eaaeae;
+    background: #f1f1f1;
+    border-radius: 5px;
 }
 .cartitems-promobox input{
     border: none;
@@ -87,4 +88,13 @@
     font-size: 16px;
     width: 330px;
     height: 50px;
+}
+.cartitems-promobox button{
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
