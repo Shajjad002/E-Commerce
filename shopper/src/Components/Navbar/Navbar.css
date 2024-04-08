@@ -80,6 +80,9 @@
   background: #ff4141;
   color: #f3f3f3;
 }
+.nav-dropdown{
+  display: none;
+}
 
 @media(max-width:1280px){
   .navbar{
@@ -131,13 +134,19 @@
   }
 
 }
-@media(max-width:1024px){
+@media(max-width:800px){
   .navbar{
-    padding: 12px 30px;
+    padding: 10px 0px;
+  }
+  .nav-dropdown{
+    display: block;
+    width: 30px;
+    rotate: -90deg;
+    transition: 0.5s;
   }
   .nav-menu{
-    gap: 25px;
-    font-size: 14px;
+    display: flex;
+    height: 80x;
   }
   .nav-login-cart button{
     height: 35px;
