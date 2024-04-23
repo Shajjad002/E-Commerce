@@ -65,3 +65,48 @@
     }
     
 }
+@media(max-width:1024px){
+    .popular{
+        height: 60vh;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .popular hr{
+        width: 120px;
+        height: 3px;
+    }
+    .popular-item{
+        gap:15px;
+        margin-top: 20px;
+    }
+    
+}
+@media(max-width:800px){
+    .popular{
+        height: 50vh;
+        gap: 6px;
+    }
+    .popular h1{
+        font-size: 20px;
+    }
+    .popular hr{
+        width: 100px;
+    }
+    .popular-item{
+        gap:5px;
+    }
+    
+}
+@media(max-width:500px){
+    .popular{
+        height: 90vh;
+    }
+    .popular-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    
+}
