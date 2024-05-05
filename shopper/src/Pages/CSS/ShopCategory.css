@@ -67,4 +67,36 @@
     .shopcategory-products .item{
         margin: auto;
     }
+    .shopcategory-loadmore{
+        margin: 100px auto;
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+
 }
+
+@media(max-width:800px){
+    
+    .shopcategory-banner{
+        width: 95%;
+    }
+    .shopcategory-indexSort{
+        width: 95%;
+    }
+    .shopcategory-loadmore{
+        margin: 60px auto;
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+}
+@media(max-width:500px){
+    
+    .shopcategory-products{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+ 
