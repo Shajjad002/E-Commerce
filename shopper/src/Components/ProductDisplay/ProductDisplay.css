@@ -88,3 +88,48 @@
 .productdisplay-right-category span{
     font-weight: 600;
 }
+
+
+@media(max-width:1280px){
+    
+    .productdisplay{
+        margin: 0px 60px;
+    }
+    .productdisplay-left{
+        gap: 10px;
+    }
+    .productdisplay-img-list{
+        gap: 10px;
+    }
+    .productdisplay-img-list img{
+        height: 120px;
+    }
+    .prodcutdisplay-main-img{
+        width: auto;
+        height: 510px;
+    }
+    .productdisplay-right{
+        margin: 0px 30px;
+    }
+    .productdisplay-right h1{
+        font-size: 22px;
+    }
+    .productdiplay-right-stars{
+        gap: 3px;
+        font-size: 13px;
+    }
+    .productdisplay-right-prices{
+        margin: 10px 0px;
+        font-size: 18px;
+    }
+    .productdisplay-right-description{
+      font-size: 13px;  
+    }
+
+    .productdisplay-right-size h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+
+}

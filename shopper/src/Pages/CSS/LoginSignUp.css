@@ -102,10 +102,20 @@
 @media(max-width:800px){
     
     .loginsignup-container{
-        width: auto;
-        max-width: 500px;
-        max-height: 500px;
+       padding: 20px 30px;
     }
-    
+    .loginsignup-container h1{
+        font-size: 24px;
+    }
+    .loginsignup-fileds{
+        margin-top: 20px;
+    }
+    .loginsignup-fileds input{
+        height: 50px;
+    }
+    .loginsignup-container button{
+        height: 50px;
+        font-size: 16px;
+    }
     
 }
