@@ -8,7 +8,7 @@ const AddProduct = () => {
   const [productDetails,setProductDetails] =useState({
     name: "",
     image:"",
-    category: "",
+    category: "Women",
     new_price: "",
     old_price: ""
   })
@@ -71,13 +71,16 @@ const AddProduct = () => {
           </div>
           
         </div>
-        <div className="addproduct-itemfield">
-          <p>Product Category</p>
-          <select name="category" className='add-product-selector' value={productDetails.category}  onChange={changeHandler}>
-            <option value="women">Women</option>
-            <option value="men">Men</option>
-            <option value="kid">Kid</option>
-          </select>
+        <div className='product-details'>
+          <div className="addproduct-itemfield">
+            <p>Product Category</p>
+            <select name="category" className='add-product-selector' value={productDetails.category}  onChange={changeHandler}>
+              <option value="women">Women</option>
+              <option value="men">Men</option>
+              <option value="kid">Kid</option>
+            </select>
+          </div>
+          
         </div>
         <div className="addproduct-itemfield">
             <label htmlFor="file-input">
