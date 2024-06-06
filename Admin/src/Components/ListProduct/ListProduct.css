@@ -32,6 +32,9 @@
     cursor: pointer;
     margin: auto;
 }
+.listproduct-allproduct{
+    overflow-y: auto;
+}
 
 @media(max-width:800px)
 {
@@ -41,6 +44,14 @@
         height: 100%;
         padding: 10px 30px;
         margin: 20px auto;
+    }
+    .listproduct-format-main{
+        padding: 15px 0px;
+        color: #454545;
+        font-size: 12px;
+    }
+    .listproduct-product-icon{
+        height: 60px;
     }
 
 }
