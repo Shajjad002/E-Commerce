@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './NewCollection.css'
-import new_collections from '../Assets/new_collections';
+//import new_collections from '../Assets/new_collections';
 import Item from '../Items/Item';
+import { Collection } from 'mongoose';
 
 
  function NewCollection() {
+    
+    const [new_collections,setNew_Collection]=useState([]);
+
+    useEffect(()=>{
+        fetch('http://localhost:4000/newcollectiond')
+        .then((response)=>response.json())
+        .then((data)=>setNew_Collection(data));
+    },[])
+
     return (
         <div className='new-collections'>
             <h1>NEW COLLECTION</h1>
